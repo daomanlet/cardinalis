@@ -1,4 +1,6 @@
 #ignore train data
-./mobilenet_v2/train/*
-./mobilenet_v2/test/*
-./mobilenet_v2/valid/*
+models/training_data/*
+models/finetuned_model/*
+deploy/*.h5
+.vscode/*
+*__pycache__*
