@@ -13,6 +13,7 @@ numpy = "*"
 tensorflow = "*"
 pillow = "*"
 requests = "*"
+gunicorn = "*"
 
 [dev-packages]
 
