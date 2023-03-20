@@ -6,6 +6,7 @@ from PIL import Image
 def init_model(model_path='./deploy/mobilenet_v2.h5'):
     model = None
     try:
+        print(model_path)
         model = keras.models.load_model(model_path)
     except Exception as e:
         print(f"An exception occurred: {e}")
